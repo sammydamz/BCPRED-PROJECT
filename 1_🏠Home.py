@@ -1,7 +1,6 @@
 import numpy as np
 import streamlit as st
 import base64
-import xgboost as xgb
 import pickle
 
 st.set_page_config(
