@@ -1,7 +1,6 @@
-import pickle
+
 import streamlit as st
 import base64
-import xgboost
 
 # Function to convert image to base64
 def get_base64(bin_file):
@@ -58,20 +57,19 @@ def main():
     st.markdown(
         """
         <div class="bodyy">
-         <h2>About Our Breast Tumour Classification Web App</h2>
+         <h2>About BCPRED</h2>
          <br>
-           <p>Our web application is designed to significantly advance the detection and diagnosis of breast cancer by employing advanced machine learning technology to accurately classify breast tumors. This app aims to provide healthcare professionals with a powerful tool that enhances early detection and treatment planning, ultimately improving patient outcomes in the fight against breast cancer.
+           <p>Our web application is designed to significantly advance the detection and diagnosis of breast cancer by employing machine learning to classify breast tumors. This app aims to provide healthcare professionals with a powerful tool that enhances early detection and treatment planning, ultimately improving patient outcomes in the fight against breast cancer.
            </p>
            <p>
-           The web app was developed by a team of students from Dapartment of Biomedical Engineering at the  University of Ghana as part of their Introduction to Biomedical Engineering coursework. The team's combined efforts have resulted in a practical application of machine learning technologies in a critical area of healthcare.
+           The web app was developed by a team of students from the Dapartment of Biomedical Engineering at the  University of Ghana as part of their Introduction to Biomedical Engineering coursework.
            </p>
-           The web app was developed by a team of students from Dapartment of Biomedical Engineering at the  University of Ghana as part of their Introduction to Biomedical Engineering coursework. The team's combined efforts have resulted in a practical application of machine learning technologies in a critical area of healthcare.
            <p>
            The dataset for this project was sourced from the comprehensive Wisconsin Breast Cancer Database, which is well-regarded for its detailed and highly reliable dataset of FNA (Fine Needle Aspiration) breast tumor biopsies.
-            These samples underwent preprocessing to ensure data integrity and completeness, setting a solid foundation for our predictive model.
+           The dataset underwent preprocessing to ensure data integrity and completeness, setting a solid foundation for our predictive model.
            </p>
            <p>
-           Initially, the Wisconsin Breast Cancer Database provided ten real-world features, each capturing different aspects of the tumor cells:
+           The Wisconsin Breast Cancer Database provides ten real-world features, each capturing different aspects of the tumor cells:
             <ol>
             <li>  Radius (mean of distances from the center to points on the perimeter)</li>
             <li>  Texture (standard deviation of gray-scale values)</li>
@@ -85,7 +83,7 @@ def main():
             <li>  Fractal dimension ("coastline approximation" - 1)</li>
             </ol>
             </p>
-            <p>For each of these features, three key measurements were taken: Mean, Standard Error, and the "Worst" or largest (mean of the three largest values).To optimize our model's performance and interpretability, we employed statistical analysis and feature selection. Through this process, we identified the 16 most significant features that held the greatest predictive power. By focusing on these key predictors, we enhanced the efficiency and accuracy of our model.
+            <p>For each of these features, the following statisticall analysis were perfomred: Mean, Standard Error, and the "Worst" or largest (mean of the three largest values) resulting in a total of 30 features, as indicated in the original Wisconsin Breast Cancer Dataset.   To optimize our model's performance and interpretability, we employed statistical analysis and feature selection. Through this process, we identified the 16 most significant features that held the greatest predictive power. By focusing on these key predictors, we enhanced the efficiency and accuracy of our model.
            </p>
            <p>
            At the heart of our web application lies the XGBoost algorithm. XGBoost which stands for "Extreme Gradient Boosting," is a decision-tree-based ensemble algorithm that utilizes a gradient boosting framework.

@@ -2,6 +2,7 @@ import numpy as np
 import streamlit as st
 import base64
 import xgboost as xgb
+import pickle
 
 st.set_page_config(
     page_title="BCPRED",
@@ -27,9 +28,8 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Loading the saved model
-# bcpred_model = pickle.load(open('brest_cancer_predXGBOOST.sav', 'rb'))
-bcpred_model = xgb.Booster()
-bcpred_model.load_model("BCPRED_xgb_model.json")
+bcpred_model = pickle.load(open('brest_cancer_predXGBOOST.sav', 'rb'))
+
 
 # Creating a function for Prediction
 def bcprediction(input_data):
