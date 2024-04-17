@@ -45,10 +45,10 @@ def main():
         .bodyy h2 {
             text-align: center;
             font-weight: bold;
-            font-size: 2.8rem;
+            font-size: 2.5em;
         }
         p {
-        text-align: justify;
+        font-size: 18px;
         }
         </style>
         """,
