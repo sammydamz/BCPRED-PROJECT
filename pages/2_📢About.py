@@ -94,13 +94,13 @@ def main():
            <h2>THE TEAM</h2>
            <div>
             <ul>
-                <li><a href="https://www.linkedin.com/in/abena-tiwaa-opoku-boateng" target="_blank">Abena Tiwaa Opoku-Boateng</a></li>
+                <li><a href="https://www.linkedin.com/in/abena-opoku-boateng-04b7bb231/" target="_blank">Abena Tiwaa Opoku-Boateng</a></li>
                 <li><a href="https://www.linkedin.com/in/stephen-osei-asamoah" target="_blank">Stephen Osei Asamoah</a></li>
                 <li><a href="https://www.linkedin.com/in/jessica-konadu-oppong" target="_blank">Jessica Konadu Oppong</a></li>
                 <li><a href="https://www.linkedin.com/in/samuel-d-ankapong" target="_blank">Samuel Danquah Ankapong</a></li>
                 <li><a href="https://www.linkedin.com/in/ewurama-aidoo" target="_blank">Ewurama Aidoo</a></li>
                 <li><a href="https://www.linkedin.com/in/gilbert-nketia" target="_blank">Gilbert Nketia</a></li>
-                <li><a href="https://www.linkedin.com/in/maalug-mary-yabia" target="_blank">Maalug Mary Yabia</a></li>
+                <li><a href="https://www.linkedin.com/in/maalug-mary-6b6369299" target="_blank">Maalug Mary Yabia</a></li>
             </ul>
            </div>
         </div>
